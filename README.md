@@ -1,7 +1,11 @@
-1. Copiar en el directorio compress los directorios/archivos a comprimir
-2. Abrir un terminal de Windows en el mismo directorio que el script compress.ps1 (Clic derecho -> Abrir en Terminal)
-3. En el terminal, ejecutar: ./compress.ps1
+## Usage
 
-- Dentro del directorio compress estarán los archivos comprimidos en sus respectivos directorios
-- El archivo input.txt contendrá las rutas de los archivos originales
-- El archivo output.txt contendrá las rutas de los archivos comprimidos
+1. Copy the directories or files to be compressed into _compress_.
+2. Launch a new Windows terminal and change directory to the directory where _compress.ps1_ is located.
+3. In the terminal run the script: `./compress.ps1`
+
+## Output
+
+-   The _compress_ directory contains the compressed files in their respective directories
+-   The _input.txt_ file contains the file paths before compressing
+-   The _output.txt_ file contains the file paths after compressing
